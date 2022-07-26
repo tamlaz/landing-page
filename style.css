@@ -1,10 +1,35 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header {
+    background-color: #1F2937;
     display: flex;
+    flex-direction: column;
+}
+
+.headlogo, .mainthing {
+    display: flex;
+}
+
+.headlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.headlogo {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divone {
+    margin-left: auto;
 }
 
 .continfos {
@@ -16,16 +41,26 @@ body {
 }
 
 .invite {
+    flex: 1;
     display: flex;
 }
 
 .footer {
+    background-color: #1F2937;
     display: flex;
 }
 
 img {
     max-width: 100px;
     max-height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 * {
