@@ -2,16 +2,40 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
+    flex: 1;
     background-color: #1F2937;
+}
+.maincontainer {
     display: flex;
     flex-direction: column;
 }
+.headlogo {
+    flex-direction: row;
+    margin-bottom: 50px;
+}
 
-.headlogo, .mainthing {
-    display: flex;
+.logo, .mainthing {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo, .hero {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+.secondary {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .headlinks {
@@ -23,13 +47,22 @@ body {
     gap: 10px;
 }
 
-.headlogo {
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .divone {
     margin-left: auto;
+}
+
+.divthree {
+    margin-right: ;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+}
+.pig {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
 }
 
 .continfos {
@@ -57,10 +90,17 @@ img {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 li {
     list-style: none;
+}
+
+button {
+    height: 20px;
+    width: 80px;
 }
 
 * {
