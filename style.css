@@ -83,7 +83,8 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    padding: 0px 120px 50px;
+    padding: 30px 150px 50px;
+    background-color: ;
 }
 .infoheader {
     font-size: 36px;
@@ -97,8 +98,17 @@ body {
     justify-content: center;
 }
 
-.info {
+.infos {
     flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infos div {
+    max-width: 150px;
+}
+.infos img {
+    margin-bottom: 10px;
 }
 
 .quote {
@@ -115,9 +125,11 @@ body {
     display: flex;
 }
 
-.euro, .save, .calc, .little {
-    max-width: 100px;
-    max-height: 100px;
+.dollar, .save, .calc, .little {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(10, 120, 190);
+    border-radius: 6px;
 }
 
 a {
@@ -142,6 +154,3 @@ button {
     justify-content: center;
 }
 
-* {
-    border: 2px solid black;
-}
