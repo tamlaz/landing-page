@@ -11,12 +11,13 @@ body {
 
 .header {
     flex: 1;
+    flex-grow: 1;
     background-color: #1F2937;
 }
 .maincontainer {
     display: flex;
     flex-direction: column;
-    padding: 0px 120px 50px;
+    padding: 0px 150px 50px;
 }
 .headlogo, .mainthing {
     display: flex;
