@@ -48,7 +48,7 @@ body {
 
 .hero {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .secondary {
@@ -82,11 +82,23 @@ body {
 .continfos {
     display: flex;
     text-align: center;
+    flex-direction: column;
+    padding: 0px 120px 50px;
+}
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .information {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.info {
+    flex: 1 1 0;
 }
 
 .quote {
@@ -130,3 +142,6 @@ button {
     justify-content: center;
 }
 
+* {
+    border: 2px solid black;
+}
