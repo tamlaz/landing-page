@@ -84,27 +84,27 @@ body {
     text-align: center;
     flex-direction: column;
     padding: 30px 150px 50px;
-    background-color: ;
 }
 .infoheader {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 30px;
 }
 
 .information {
     display: flex;
     flex-flow: row;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
 }
 
 .infos {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-.infos div {
     max-width: 150px;
 }
 .infos img {
@@ -130,6 +130,9 @@ body {
     height: 150px;
     border: 2px solid rgb(10, 120, 190);
     border-radius: 6px;
+}
+.dollar {
+    background-color: white;
 }
 
 a {
