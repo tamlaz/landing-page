@@ -92,7 +92,7 @@ body {
 }
 .infoheader {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1F2937;
     margin-bottom: 30px;
 }
@@ -118,6 +118,14 @@ body {
 
 .quote {
     display: flex;
+    background-color: #E5E7EB;
+    padding: 50px 250px 40px;
+}
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color:#1F2937
 }
 
 .invite {
