@@ -151,7 +151,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 150px 50px
+    padding: 80px 150px 80px
 }
 
 .inmodal {
@@ -159,8 +159,8 @@ body {
     background-color: #3882F6;
     color: white;
     border-radius: 6px;
-    padding: 20px 40px;
-    column-gap: 15px;
+    padding: 40px 80px;
+    column-gap: 80px;
 }
 .invite_text {
     display: flex;
@@ -172,16 +172,18 @@ body {
     font-weight: bold;
 }
 .invite_button {
+    margin-left: 50px;
     align-self: flex-end;
     border: 1px solid white;
     border-radius: 6px;
 }
 
-
-
 .footer {
-    background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
 
 .dollar, .save, .calc, .little {
@@ -204,17 +206,15 @@ li {
 }
 
 button {
-    height: 25px;
-    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
     background-color: #3882F6;
     color: white;
     border-radius: 6px;
     padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-* {
-    border: 2px solid black;
+    font-weight: bold;
+    border: none;
 }
